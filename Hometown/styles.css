@@ -1,0 +1,95 @@
+body {
+  
+  font-family: "Bebas Neue", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:small;
+  background: linear-gradient(to right, rgb(180, 185, 143), #c38a65);
+  
+  
+  
+
+}
+
+#header {
+  color: #bbb5b1;
+  line-height: 3; 
+  background-image: url("image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 200px; 
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+
+}
+
+h1 {
+  font-size: 1.5em; 
+  font-weight: bold;
+  letter-spacing: 3px; 
+  color: white; 
+  margin: 0; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  padding: 3px 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px; 
+  display: inline-block;
+  
+}
+  
+.intro-section {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+
+.card {
+  background: #c8c8c8;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden; 
+  max-width: 300px; 
+  text-align: center;
+  transition: transform 0.3s ease; 
+}
+
+.card:hover {
+  transform: translateY(-5px); 
+}
+
+
+.card img {
+  width: 100%; 
+  height: auto; 
+  display: block;
+}
+
+
+.card p {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #4c4b4b;
+}
+
+.content {
+  background-color: #f4f4f4; 
+  padding: 20px; 
+  text-align: center; 
+  margin-top: 50px; 
+}
+
+
+.learn-more {
+
+  padding: 10px 20px;
+  left: 50%; 
+  right: 50%;
+  align-items: center;
+  
+ 
+}
