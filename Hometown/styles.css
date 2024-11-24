@@ -1,15 +1,14 @@
 body {
   
-  font-family: "Bebas Neue", system-ui;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size:small;
+  font-size:medium;
   background: linear-gradient(to right, rgb(180, 185, 143), #c38a65);
   
-  
-  
-
 }
+
+
 
 #header {
   color: #bbb5b1;
